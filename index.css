@@ -287,9 +287,9 @@ button {
 
 .brand-initials {
   font-family: var(--font-logo);
-  font-style: italic;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   color: var(--accent-primary);
 }
 
