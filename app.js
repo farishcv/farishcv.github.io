@@ -371,7 +371,7 @@ function initQuickInquiryForm() {
     const topic = document.getElementById("inquiry-topic")?.value || "Startup Ecosystem & AI Programs";
     const message = document.getElementById("inquiry-message")?.value.trim() || "";
 
-    const subject = encodeURIComponent(`[farishcv.me] ${topic} — from ${name}`);
+    const subject = encodeURIComponent(`[farish.cv] ${topic} — from ${name}`);
     const body = encodeURIComponent(
       `Hi Farish,\n\n${message}\n\nBest regards,\n${name}`
     );
